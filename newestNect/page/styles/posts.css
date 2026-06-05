@@ -1,0 +1,111 @@
+            P{
+                font-family: 'Google Sans', sans-serif;
+            }
+            body {
+                background-color: #eaeaea; 
+                margin: 0;
+            }
+            .feed {
+                display: flex;
+                flex-direction: column; 
+                align-items: center;    
+                gap: 10px;              
+                padding: 20px;          
+            }
+            .avatar{
+                width: 90%;
+                border-radius: 7px;
+            }
+            .post{
+                background-color: white;
+                width: 650px;
+                display: inline-block;
+                border-radius: 10px;
+                box-shadow: 2px 2px 5px rgba(160, 156, 156, 0.25);
+                box-shadow: 
+                    inset 0 1px 0 0 #ffffff, 
+                     0 1px 3px 0 rgba(0, 0, 0, 0.12);
+                padding: 20px;
+                margin: 7px;
+                border: 1px solid #c4cbd1;
+            }
+            .post-content{
+                width: 80%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .post-avatar{
+                display: inline-block;
+                vertical-align: top;
+                width: 70px;
+                margin-right: 10px;
+            }
+            .buttons-bar{
+                margin-top: 15px;
+                
+                display: block;
+            }
+            .name{
+                font-weight: bold;
+                margin-top: 0px;
+                font-size: 16px;
+                line-height: 15px;
+            }
+            .username{
+                color: gray;
+            }
+            .post-date{
+                color: rgba(128, 128, 128, 0.7)
+            }
+            .post-text{
+                margin-top: 0px;
+                font-size: 16px;
+                line-height: 15px;
+
+            }
+            .like{
+                font-family: 'Google Sans', sans-serif;
+                vertical-align: middle;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 1px;
+                height: 30px;
+                background: linear-gradient(#4b76a4,#2f4964);
+                border: 1px solid #2c4763;
+                border-radius: 12px;
+                color: white;
+                text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4); 
+                transition: all 0.1s ease-in-out;
+                cursor: pointer;
+            }
+            .like:active{
+                box-shadow: 
+                    inset 0 2px 4px rgba(0, 0, 0, 0.5), 
+                    inset 0 1px 4px rgba(0, 0, 0, 0.5);
+                transition: background 0.1s ease-in-out, color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, filter 0.1s ease-in-out;
+            }
+                
+            
+
+            .comment{
+                font-family: 'Google Sans', sans-serif;
+                vertical-align: middle;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 1px;
+                height: 30px;
+                background: linear-gradient(#4b76a4,#2f4964);
+                border: 1px solid #2c4763;
+                border-radius: 12px;
+                color: white;
+                text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4); 
+                transition: all 0.1s ease-in-out;
+                cursor: pointer;
+            }
+            
+            .comment:active{
+                 box-shadow: 
+                    inset 0 2px 4px rgba(0, 0, 0, 0.5), 
+                    inset 0 1px 4px rgba(0, 0, 0, 0.5);
+                transition: background 0.1s ease-in-out, color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, filter 0.1s ease-in-out;
+            }

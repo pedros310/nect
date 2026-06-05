@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="newestNect/newestNect.vcxproj" Id="98a3da3e-0bf1-4302-a785-419131b82284" />
+</Solution>

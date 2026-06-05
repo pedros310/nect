@@ -1,0 +1,38 @@
+<div class="post", style="
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                ">
+                    <div class="post-main" style="display: flex; align-items: start;">
+                        <div class="post-avatar">
+                            <img class="avatar" src="styles/default-avatar.jpg">
+
+                        </div>
+                        
+                        <div class="post-content">
+                            <p class="name">
+{{nickname}} 
+<span class="username">
+{{username}}
+</span> <span class="post-date">
+{{post_date}}
+</span></p>
+                            <p class = "post-text">
+{{post_content}}
+</p>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <div class="buttons-bar">
+                            <button class="like">
+                                ❤ 
+{{quantity}}
+                            </button>
+
+                            <button class="comment">
+                                comment
+                            </button>
+                    </div>
+            </div>
